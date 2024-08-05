@@ -1,0 +1,160 @@
+{
+    "nav":{
+        "home": "Home",
+        "explore": "Explore",
+        "about": "About Us",
+        "offers": "See Offers",
+        "signin": "Sign In"
+    },
+
+    "banner":{
+      "bannerText": "Book Your Dream Vacation!",
+      "bannerDescription": "Enter your destination, dates, and preferences to explore a wide range of accommodations tailored just for you. Find the perfect place to stay with just a few clicks.",
+      "destinationLabel": "Destination",
+      "fromLabel": "From",
+      "toLabel": "To",
+      "guestsLabel": "Guests",
+      "searchButton": "Search"
+    },
+
+    "residenceCategory": {
+      "title": "Residence categories",
+      "description": "Whether you prefer the privacy of a single-family home, the convenience of an apartment, or the luxury of a mansion, we've got you covered.",
+      "categories": {
+        "hotels": "Hotels",
+        "mountainHouses": "Mountain Houses",
+        "beachVillas": "Beach villas",
+        "villageHouses": "Village houses",
+        "urbanApartments": "Urban apartments",
+        "wineTourism": "Wine Tourism",
+        "luxuryVillas": "Luxury villas",
+        "ecoHouses": "Eco Houses",
+        "pricesFrom": "Prices from"
+      },
+      "buttons": {
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+
+    "popularDestinations": {
+    "title": "Popular Local Destinations",
+    "description": "Start your journey today and immerse yourself in the beauty and culture of these popular locales.",
+    "hotels": "Hotels",
+    "attractions": "Attractions",
+    "viewMore": "View more",
+    "destinations": {
+      "sofia": "Sofia",
+      "plovdiv": "Plovdiv",
+      "nessebar": "Nessebar",
+      "velikoTarnovo": "Veliko Tarnovo",
+      "rousse": "Rousse"
+    }
+  },
+  "globalDestinations": {
+    "title": "Global Destinations",
+    "description": "Join us and explore the wonders of the globe with personalized itineraries that ensure every trip is unforgettable. Your adventure begins with Global Destinations.",
+    "hotels": "Hotels",
+    "attractions": "Attractions",
+    "categories": {
+      "dubai": "Dubai, UAE",
+      "paris": "Paris, France",
+      "santorini": "Santorini, Greece",
+      "rome": "Rome, Italy",
+      "newYork": "New York, USA",
+      "istanbul": "Istanbul, Turkey",
+      "london": "London, UK",
+      "barcelona": "Barcelona, Spain",
+      "tokyo": "Tokyo, Japan",
+      "rioDeJaneiro": "Rio de Janeiro, Brazil",
+      "sydney": "Sydney, Australia",
+      "reykjavik": "Reykjavik, Iceland",
+      "prague": "Prague, Czech Republic",
+      "capeTown": "Cape Town, South Africa",
+      "kyoto": "Kyoto, Japan",
+      "bangkok": "Bangkok, Thailand",
+      "losAngeles": "Los Angeles, USA",
+      "machuPicchu": "Machu Picchu, Peru",
+      "amsterdam": "Amsterdam, Netherlands",
+      "bali": "Bali, Indonesia"
+    }
+  },
+  
+
+    "services": {
+      "title": "Our Features & Services",
+      "description": "Discover the exceptional features and services that set us apart.",
+      "easyBooking": "Easy Booking Process",
+      "easyBookingDesc": "Streamlined booking system for hassle-free reservations.",
+      "customerSupport": "24/7 Customer Support",
+      "customerSupportDesc": "Round-the-clock assistance for any inquiries or issues.",
+      "securePayment": "Secure Payment Options",
+      "securePaymentDesc": "Multiple secure payment methods to ensure safe transactions.",
+      "wideSelection": "Wide Selection",
+      "wideSelectionDesc": "Extensive range of options to suit various preferences and budgets.",
+      "userFriendly": "User-Friendly Interface",
+      "userFriendlyDesc": "Intuitive interface for easy navigation and browsing.",
+      "realTime": "Real-time Availability",
+      "realTimeDesc": "Instant updates on availability to plan your booking efficiently."
+    },
+
+    "contact": {
+      "title": "Do you have any questions?",
+      "description": "We're here to help with any questions or concerns you may have about your booking. Our support hours are 24/7, and we'll get back to you as soon as possible.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "question": "Ask a question",
+        "submit": "Send"
+      }
+    },
+
+    "footer":{
+        "explore": {
+            "title": "Explore",
+            "links": [
+              { "text": "Hotels", "url": "/hotels" },
+              { "text": "Flights", "url": "/flights" },
+              { "text": "Car Rentals", "url": "/car-rentals" },
+              { "text": "Vacation Packages", "url": "/vacation-packages" },
+              { "text": "Cruises", "url": "/cruises" }
+            ]
+          },
+          "about": {
+            "title": "About",
+            "links": [
+              { "text": "About Us", "url": "/about-us" },
+              { "text": "How It Works", "url": "/how-it-works" },
+              { "text": "Careers", "url": "/careers" },
+              { "text": "Press", "url": "/press" },
+              { "text": "Blog", "url": "/blog" },
+              { "text": "Contact Us", "url": "/contact" }
+            ]
+          },
+          "help": {
+            "title": "Help",
+            "links": [
+              { "text": "FAQ", "url": "/faq" },
+              { "text": "Customer Service", "url": "/customer-service" },
+              { "text": "Booking Guidelines", "url": "/booking-guidelines" },
+              { "text": "Payment Options", "url": "/payment-options" },
+              { "text": "Cancellation Policy", "url": "/cancellation-policy" },
+              { "text": "Site Map", "url": "/site-map" }
+            ]
+          },
+          "followUs": {
+            "title": "Follow us",
+            "socialMedia": [
+              { "icon": "facebook", "url": "#" },
+              { "icon": "twitter", "url": "#" },
+              { "icon": "instagram", "url": "#" },
+              { "icon": "linkedin", "url": "#" }
+            ]
+          },
+          "guarantee": "Guaranteed payment secure",
+          "footerInfo": {
+            "developer": "Developed by M. Mustafoff",
+            "rights": "Copyright {currentYear}, all rights are reserved"
+          }
+    }
+}

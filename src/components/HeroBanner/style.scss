@@ -1,0 +1,94 @@
+.hero-banner-container {
+  transition: transform 0.9s ease, opacity 0.9s ease;
+
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero-content {
+  h1 {
+    font-weight: bold;
+
+    @media (max-width: 768px) {
+      font-size: 1.3em;
+    }
+  }
+
+  p{
+    font-size: 1em;
+    @media (max-width: 768px) {
+      font-size: .9em;
+    }
+  }
+
+}
+
+.search-bar-container {
+  p {
+    font-size: 0.9em;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+.h1 {
+  animation: typing-animation 0.8s steps(40, end) infinite alternate;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1px;
+  background-color: black;
+  animation: blink-animation 1s step-end infinite;
+  margin-left: 2px; // Optional: Adds space between text and cursor
+}
+
+@keyframes blink-animation {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+}

@@ -1,0 +1,88 @@
+
+/* Language selector styles */
+.language-selector {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto; /* Align to the right */
+
+  &.active .languages-list {
+    display: block;
+  }
+}
+
+.selected-language {
+    display: flex;
+    cursor: pointer;
+
+    button{
+        width: 100%;
+        background: transparent;
+        cursor: pointer;
+        z-index: 3;
+    }
+}
+
+.languages-list {
+    display: none;
+    min-width: 10em;
+    margin-top: 1.5rem; /* Adjust this value to position it below the navbar */
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(91, 91, 102, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #fff;
+    z-index: 999;
+    position: absolute;
+    top: 100%; /* Position below the selected language */
+    right: 0;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.lang-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    margin-top: 10px;
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    svg{
+        margin-left: auto;
+    }
+
+    
+}
+
+.flag-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+select {
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+    .language-selector {
+        display: none;
+    }
+}
+

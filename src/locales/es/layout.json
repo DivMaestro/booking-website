@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "explore": "Explore",
+    "about": "Sobre Nosotros",
+    "offers": "Ver Ofertas",
+    "signin": "Iniciar Sesión"
+  },
+
+  "banner": {
+    "bannerText": "¡Reserva tus vacaciones de ensueño!",
+    "bannerDescription": "Ingrese su destino, fechas y preferencias para explorar una amplia gama de alojamientos adaptados especialmente para usted. Encuentre el lugar perfecto para hospedarse con solo unos pocos clics.",
+    "destinationLabel": "Destino",
+    "fromLabel": "Desde",
+    "toLabel": "Hasta",
+    "guestsLabel": "Invitados",
+    "searchButton": "Buscar"
+  },
+
+  "residenceCategory": {
+    "title": "Categorías de residencias",
+    "description": "Ya sea que prefiera la privacidad de una casa unifamiliar, la comodidad de un apartamento o el lujo de una mansión, lo tenemos cubierto.",
+    "categories": {
+      "hotels": "Hoteles",
+      "mountainHouses": "Casas de montaña",
+      "beachVillas": "Villas de playa",
+      "villageHouses": "Casas de pueblo",
+      "urbanApartments": "Apartamentos urbanos",
+      "wineTourism": "Turismo del vino",
+      "luxuryVillas": "Villas de lujo",
+      "ecoHouses": "Casas ecológicas",
+      "pricesFrom": "Precios desde"
+    },
+    "buttons": {
+      "previous": "Anterior",
+      "next": "Siguiente"
+    }
+  },
+
+  "popularDestinations": {
+    "title": "Destinos locales populares",
+    "description": "Comienza tu viaje hoy y sumérgete en la belleza y cultura de estos destinos populares.",
+    "hotels": "Hoteles",
+    "attractions": "Atracciones",
+    "viewMore": "Ver más",
+    "destinations": {
+      "sofia": "Sofía",
+      "plovdiv": "Plovdiv",
+      "nessebar": "Nesebar",
+      "velikoTarnovo": "Veliko Tarnovo",
+      "rousse": "Ruse"
+    }
+  },
+  "globalDestinations": {
+    "title": "Destinos Globales",
+    "description": "Únase a nosotros y explore las maravillas del mundo con itinerarios personalizados que aseguran que cada viaje sea inolvidable. Su aventura comienza con Destinos Globales.",
+    "hotels": "Hoteles",
+    "attractions": "Atracciones",
+    "categories": {
+      "dubai": "Dubái, EAU",
+      "paris": "París, Francia",
+      "santorini": "Santorini, Grecia",
+      "rome": "Roma, Italia",
+      "newYork": "Nueva York, EE.UU.",
+      "istanbul": "Estambul, Turquía",
+      "london": "Londres, Reino Unido",
+      "barcelona": "Barcelona, España",
+      "tokyo": "Tokio, Japón",
+      "rioDeJaneiro": "Río de Janeiro, Brasil",
+      "sydney": "Sídney, Australia",
+      "reykjavik": "Reikiavik, Islandia",
+      "prague": "Praga, República Checa",
+      "capeTown": "Ciudad del Cabo, Sudáfrica",
+      "kyoto": "Kioto, Japón",
+      "bangkok": "Bangkok, Tailandia",
+      "losAngeles": "Los Ángeles, EE.UU.",
+      "machuPicchu": "Machu Picchu, Perú",
+      "amsterdam": "Ámsterdam, Países Bajos",
+      "bali": "Bali, Indonesia"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios y Características",
+    "description": "Descubra las características y servicios excepcionales que nos distinguen.",
+    "easyBooking": "Proceso de Reserva Fácil",
+    "easyBookingDesc": "Sistema de reserva simplificado para reservas sin complicaciones.",
+    "customerSupport": "Atención al Cliente 24/7",
+    "customerSupportDesc": "Asistencia las 24 horas para cualquier consulta o problema.",
+    "securePayment": "Opciones de Pago Seguro",
+    "securePaymentDesc": "Múltiples métodos de pago seguros para garantizar transacciones seguras.",
+    "wideSelection": "Amplia Selección",
+    "wideSelectionDesc": "Amplia gama de opciones para adaptarse a diversas preferencias y presupuestos.",
+    "userFriendly": "Interfaz Amigable",
+    "userFriendlyDesc": "Interfaz intuitiva para una fácil navegación y navegación.",
+    "realTime": "Disponibilidad en Tiempo Real",
+    "realTimeDesc": "Actualizaciones instantáneas sobre la disponibilidad para planificar su reserva de manera eficiente."
+  },
+
+  "contact": {
+    "title": "¿Tienes alguna pregunta?",
+    "description": "Estamos aquí para ayudar con cualquier pregunta o inquietud que pueda tener sobre su reserva. Nuestro horario de atención es 24/7 y le responderemos lo antes posible.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "question": "Haz una pregunta",
+      "submit": "Enviar"
+    }
+  },
+
+  "footer": {
+    "explore": {
+      "title": "Explorar",
+      "links": [
+        { "text": "Hoteles", "url": "/hotels" },
+        { "text": "Vuelos", "url": "/flights" },
+        { "text": "Alquiler de Coches", "url": "/car-rentals" },
+        { "text": "Paquetes de Vacaciones", "url": "/vacation-packages" },
+        { "text": "Cruceros", "url": "/cruises" }
+      ]
+    },
+    "about": {
+      "title": "Acerca de",
+      "links": [
+        { "text": "Acerca de Nosotros", "url": "/about-us" },
+        { "text": "Cómo Funciona", "url": "/how-it-works" },
+        { "text": "Carreras", "url": "/careers" },
+        { "text": "Prensa", "url": "/press" },
+        { "text": "Blog", "url": "/blog" },
+        { "text": "Contáctanos", "url": "/contact" }
+      ]
+    },
+    "help": {
+      "title": "Ayuda",
+      "links": [
+        { "text": "Preguntas Frecuentes", "url": "/faq" },
+        { "text": "Servicio al Cliente", "url": "/customer-service" },
+        { "text": "Directrices de Reserva", "url": "/booking-guidelines" },
+        { "text": "Opciones de Pago", "url": "/payment-options" },
+        { "text": "Política de Cancelación", "url": "/cancellation-policy" },
+        { "text": "Mapa del Sitio", "url": "/site-map" }
+      ]
+    },
+    "followUs": {
+      "title": "Síguenos",
+      "socialMedia": [
+        { "icon": "facebook", "url": "#" },
+        { "icon": "twitter", "url": "#" },
+        { "icon": "instagram", "url": "#" },
+        { "icon": "linkedin", "url": "#" }
+      ]
+    },
+    "guarantee": "Pago seguro garantizado",
+    "footerInfo": {
+      "developer": "Desarrollado por M. Mustafoff",
+      "rights": "Derechos de autor {currentYear}, todos los derechos reservados"
+    }
+  }
+}

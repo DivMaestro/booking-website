@@ -1,0 +1,44 @@
+
+.cover-image-container {
+    .image-overlay {
+        border-radius: 20px;
+        overflow: hidden;
+
+
+        img {
+            object-fit: cover; /* Ensures the image covers the entire container without losing aspect ratio */
+        }
+
+    }
+}
+
+.contact-form-container {
+    .form-group {
+        margin-bottom: 1.5rem;
+
+        textarea {
+            resize: none; /* Disable resizing */
+        }
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 992px) { /* lg and up */
+            .form-group {
+                flex: 1;
+                margin-right: 1rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
